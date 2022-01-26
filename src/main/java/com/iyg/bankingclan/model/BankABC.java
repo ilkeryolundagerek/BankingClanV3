@@ -11,4 +11,9 @@ public class BankABC extends Bank {
         System.out.println("OPEN ACCOUNT WITH ABC BANK");
         return accountModel;
     }
+
+    @Override
+    void deposit(double amount) {
+        accountModel.deposit(amount);
+    }
 }

@@ -11,4 +11,9 @@ public class SavingAccount  extends AccountModel{
     void accountType() {
         System.out.println("INFO: SAVING ACCOUNT");
     }
+
+    @Override
+    void deposit(double amount) {
+        balance += (long)amount;
+    }
 }

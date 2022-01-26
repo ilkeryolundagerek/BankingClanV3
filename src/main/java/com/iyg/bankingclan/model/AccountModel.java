@@ -6,4 +6,5 @@ public abstract class AccountModel {
     protected Long balance;
     abstract AccountModel open();
     abstract void accountType();
+    abstract void deposit(double amount);
 }

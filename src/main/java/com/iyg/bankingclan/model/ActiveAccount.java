@@ -11,4 +11,9 @@ public class ActiveAccount extends AccountModel{
     void accountType() {
         System.out.println("INFO: ACTIVE ACCOUNT");
     }
+
+    @Override
+    void deposit(double amount) {
+        balance += (long)amount;
+    }
 }

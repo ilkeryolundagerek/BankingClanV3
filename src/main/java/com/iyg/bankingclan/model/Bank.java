@@ -11,4 +11,5 @@ public abstract class Bank {
         this.accountModel = accountModel;
     }
     abstract AccountModel openAccount();
+    abstract void deposit(double amount);
 }

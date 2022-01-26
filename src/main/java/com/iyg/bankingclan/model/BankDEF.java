@@ -11,4 +11,9 @@ public class BankDEF  extends Bank {
         System.out.println("OPEN ACCOUNT WITH DEF BANK");
         return accountModel;
     }
+
+    @Override
+    void deposit(double amount) {
+        accountModel.deposit(amount);
+    }
 }
